@@ -1,0 +1,96 @@
+.hero{
+  margin-bottom: 184px;
+
+  &__container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid $light-grey;
+    // box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+    border-radius: 8px;
+    background-color: $white;
+    z-index: 12;
+  }
+
+  &__container::before{
+    position: absolute;
+    top: 42%;
+    right: 70.4%;
+    content: "";
+    display: inline-block;
+    width: 404px;
+    height: 392px;
+    background-image: url("./../../images/hero-section-bg-img.png");
+    z-index: -1;
+  }
+
+  &__container::after{
+    position: absolute;
+    bottom: 38%;
+    left: 74%;
+    content: "";
+    display: inline-block;
+    width: 404px;
+    height: 392px;
+    background-image: url("./../../images/hero-section-bg-img.png");
+    z-index: -1;
+  }
+
+  &__container-wrapper{
+    height: 100%;
+    position: relative;
+    padding: 65px 0 185px 45px;
+    background-color: $white;
+  }
+
+  &__container-wrapper::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    display: inline-block;
+    width: 4px;
+    height: 432px;
+    background-color: $blue;
+
+  }
+
+  &__wrapper-desc-link{
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: $blue;
+    margin-bottom: 33px;
+  }
+
+  &__wrapper-title{
+    font-size: 42px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: $black;
+    margin-bottom: 29px;
+  }
+
+  &__wrapper-text{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: $black;
+    margin-bottom: 3px;
+  }
+
+  &__wrapper-span{
+    font-size: 13px;
+    line-height: 20px;
+    color: $grey;
+  }
+
+  &__img{
+    max-width: 609px;
+    width: 100%;
+    height: auto;
+  }
+}

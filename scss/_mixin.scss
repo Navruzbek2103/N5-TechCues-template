@@ -1,0 +1,13 @@
+@mixin button {
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $blue;
+  border-radius: 4px;
+  border: none;
+  padding: 7px 16px 8px;
+  cursor: pointer;
+}
