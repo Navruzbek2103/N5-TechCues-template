@@ -627,4 +627,335 @@ ul, ol {
   width: 100%;
   height: auto;
 }
+
+.articles {
+  margin-bottom: 128px;
+}
+
+.articles__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #868297;
+  margin-bottom: 32px;
+}
+
+.articles__container-title {
+  position: relative;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413E52;
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+
+.articles__container-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  -webkit-transform: translateY(calc(50% + 32px));
+          transform: translateY(calc(50% + 32px));
+  display: inline-block;
+  width: 148px;
+  height: 4px;
+  background-color: #413E52;
+}
+
+.articles__container-link {
+  position: relative;
+  font-size: 14px;
+  line-height: 29px;
+  color: #413E52;
+  padding-right: 27px;
+  text-transform: capitalize;
+}
+
+.articles__container-link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  display: inline-block;
+  width: 19px;
+  height: 14px;
+  background-image: url("./../../images/arrow-right-icon.svg");
+}
+
+.articles__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.articles__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 369px;
+  width: 100%;
+  border: 1px solid #EBEAF2;
+  -webkit-box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+          box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+  border-radius: 8px;
+}
+
+.articles__item-img {
+  margin-bottom: 32px;
+  max-width: 367px;
+  width: 100%;
+  height: 200px;
+}
+
+.articles__item-content {
+  max-width: 310px;
+  width: 100%;
+  margin-bottom: 37px;
+}
+
+.articles__item-link {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #5C5CFF;
+  margin-bottom: 31px;
+}
+
+.articles__item-title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #868297;
+  margin-bottom: 7px;
+}
+
+.articles__item-text {
+  font-size: 19px;
+  line-height: 30px;
+  color: #413E52;
+}
+
+.subscribe {
+  margin-bottom: 128px;
+}
+
+.subscribe__container {
+  border-radius: 8px;
+  background-color: #111131;
+  padding: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 56px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.subscribe__container-content-box {
+  max-width: 534px;
+  width: 100%;
+}
+
+.subscribe__container-link {
+  display: block;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #5C5CFF;
+  margin-bottom: 27px;
+}
+
+.subscribe__container-title {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.subscribe__button-group {
+  max-width: 534px;
+  width: 100%;
+}
+
+.subscribe__button-link {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #5C5CFF;
+  background: #1B1B4D;
+  border: 1px solid #8989F8;
+  border-radius: 4px;
+  padding: 13px 0px;
+  margin-bottom: 16px;
+}
+
+.button-long {
+  width: 100%;
+  font-size: 20px;
+  padding: 13px 0;
+}
+
+.studies {
+  margin-bottom: 128px;
+}
+
+.studies__container-top {
+  border-bottom: 1px solid #868297;
+  margin-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.studies__container-top-title {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413E52;
+  margin-bottom: 18px;
+}
+
+.studies__container-top-title::after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background-color: #413E52;
+}
+
+.studies__container-top-link {
+  position: relative;
+  font-size: 14px;
+  line-height: 29px;
+  color: #413E52;
+  padding-right: 27px;
+}
+
+.studies__container-top-link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  display: inline-block;
+  width: 19px;
+  height: 14px;
+  background-image: url("./../../images/arrow-right-icon.svg");
+}
+
+.studies__container-bottom {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 57px;
+  background-color: #FFFFFF;
+  z-index: 4;
+}
+
+.studies__container-bottom::before {
+  content: "";
+  position: absolute;
+  top: 75px;
+  right: 70.5%;
+  display: inline-block;
+  width: 404px;
+  height: 392px;
+  background-image: url("./../../images/hero-section-bg-img.png");
+  z-index: -1;
+}
+
+.studies__container-bottom-box {
+  max-width: 696px;
+  width: 100%;
+  border: 1px solid #EBEAF2;
+  -webkit-box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+          box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+  border-radius: 8px;
+}
+
+.studies__left-img {
+  max-width: 696px;
+  width: 100%;
+  height: 360px;
+}
+
+.studies__left-content {
+  padding: 55px 0px 48px 24px;
+  background-color: #FFFFFF;
+}
+
+.studies__left-content-title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #868297;
+  margin-bottom: 4px;
+}
+
+.studies__left-content-text {
+  font-size: 29px;
+  line-height: 42px;
+  color: #413E52;
+}
+
+.studies__bottom-list {
+  max-width: 466px;
+  width: 100%;
+}
+
+.studies__bottom-item {
+  margin-bottom: 37px;
+}
+
+.studies__bottom-item-title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #868297;
+  margin-bottom: 7px;
+}
+
+.studies__bottom-item-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #413E52;
+}
 /*# sourceMappingURL=main.css.map */
