@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <title>Template site</title>
 </head>
-<body>
+<body id="body">
   <h1 class="visually-hidden">TechCues Blog site</h1>
   <!-- HEADER START -->
   <header class="header">
@@ -21,15 +21,40 @@
           <nav class="header__nav">
             <ul class="header__nav-list">
               <li class="header__item">
-                <a href="" class="header__item-link">Categories</a>
+                <a href="#technology" class="header__item-link">Categories</a>
+                <ul class="header__item-list">
+                  <li class="header__item-item">
+                    <a href="#" class="header__item-item-link">Mobile Development</a>
+                  </li>
+                  <li class="header__item-item">
+                    <a href="#" class="header__item-item-link">Web Development</a>
+                  </li>
+                  <li class="header__item-item">
+                    <a href="#" class="header__item-item-link">Game Development</a>
+                  </li>
+                </ul>
               </li>
 
               <li class="header__item">
-                <a href="" class="header__item-link">Authors</a>
+                <a href="#studies" class="header__item-link">Authors</a>
               </li>
 
               <li class="header__item">
-                <a href="" class="header__item-link">Templates</a>
+                <a href="#articles" class="header__item-link">Templates</a>
+                <ul class="header__item-list">
+                  <li class="header__item-item">
+                    <a href="#" class="header__item-item-link">Coffeeroaster</a>
+                  </li>
+                  <li class="header__item-item">
+                    <a href="#" class="header__item-item-link">Scoot</a>
+                  </li>
+                  <li class="header__item-item">
+                    <a href="#" class="header__item-item-link">Gym</a>
+                  </li>
+                  <li class="header__item-item">
+                    <a href="#" class="header__item-item-link">Hotel</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </nav>
@@ -62,8 +87,8 @@
     </section>
     <!-- hero-section end -->
 
-    <!-- articles-section-start -->
-    <section class="articles">
+    <!-- articles-section start -->
+    <section class="articles" id="articles">
       <div class="container">
         <div class="articles__container">
           <h2 class="articles__container-title">Recent articles</h2>
@@ -99,9 +124,9 @@
         </ul>
       </div>
     </section>
-    <!-- articles-section-end -->
+    <!-- articles-section end -->
 
-    <!-- subscribe-section-start -->
+    <!-- subscribe-section start -->
     <section class="subscribe">
       <div class="container">
         <div class="subscribe__container">
@@ -116,10 +141,10 @@
         </div>
       </div>
     </section>
-    <!-- subscribe-section-end -->
+    <!-- subscribe-section end -->
 
-    <!-- studies-section-start -->
-    <section class="studies">
+    <!-- studies-section start -->
+    <section class="studies" id="studies">
       <div class="container">
         <div class="studies__container-top">
           <h2 class="studies__container-top-title">Case studies</h2>
@@ -152,17 +177,176 @@
         </div>
       </div>
     </section>
-    <!-- studies-section-end -->
+    <!-- studies-section end -->
+
+    <!-- technology-section start -->
+    <section class="technology" id="technology">
+      <h2 class="visually-hidden">Technology section</h2>
+      <div class="container">
+        <div class="technology__container">
+          <div class="technology__first-box">
+            <div class="technology__first-top">
+              <h3 class="technology__first-top-title">Mobile technology</h3>
+              <a href="#" class="technology__first-top-link">View all</a>
+            </div>
+            <ul class="technology__first-list">
+              <li class="technology__first-item">
+                <h4 class="technology__first-item-title">Milford Smith</h4>
+                <p class="technology__first-item-text">Technology in Sales: How Data is Powering Purchase Decisions</p>
+              </li>
+
+              <li class="technology__first-item">
+                <h4 class="technology__first-item-title">Adell Jacobi</h4>
+                <p class="technology__first-item-text">Best Technology Podcast Episodes of 2020</p>
+              </li>
+
+              <li class="technology__first-item">
+                <h4 class="technology__first-item-title">Lon Baumbach</h4>
+                <p class="technology__first-item-text">Integrate Big Data to Drive Informed, Agile Solutions</p>
+              </li>
+            </ul>
+          </div>
+          <div class="technology__second-box">
+            <h4 class="technology__second-title">Heading</h4>
+            <p class="technology__second-text">Quality tech news. In your inbox. Every week.</p>
+            <a href="#" class="technology__second-link">Email address</a>
+            <button class="button button-subscribe">Subscribe</button>
+          </div>
+          <div class="technology__third-box">
+            <div class="technology__third-top">
+              <h3 class="technology__third-top-title">Data insights</h3>
+              <a href="#" class="technology__third-top-link">View all</a>
+            </div>
+            <ul class="technology__third-list">
+              <li class="technology__third-item">
+                <h4 class="technology__third-item-title">Gerhard Hagenes</h4>
+                <p class="technology__third-item-text">Building an Adaptable Enterprise Sales Organization in the Next Normal</p>
+              </li>
+
+              <li class="technology__third-item">
+                <h4 class="technology__third-item-title">Jarred Homenick</h4>
+                <p class="technology__third-item-text">It’s All About Timing — Good Sales Reps Know When to Follow Up</p>
+              </li>
+
+              <li class="technology__third-item">
+                <h4 class="technology__third-item-title">Jarred Homenick</h4>
+                <p class="technology__third-item-text">Peeking the Crystal Ball: 3 Bold Technology Predictions in 2021</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- technology-section end -->
 
   </main>
   <!-- MAIN END -->
 
   <!-- FOOTER START -->
   <footer class="footer">
-    <div class="container">
+    <h2 class="visually-hidden">Footer section</h2>
+    <div class="footer__wrapper">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__logo-wrapper">
+            <a href="./index.html" class="footer__logo-wrapper-link">
+              <img src="./images/site-logo-footer.svg" alt="site logo" class="footer__logo-wrapper-img">
+            </a>
+            <ul class="footer__logo-wrapper-list">
+              <li class="footer__logo-wrapper-item">
+                <a href="#" class="footer__logo-wrapper-item-link">
+                  <img src="./images/facebook-icon.svg" alt="facebook icon" class="footer__logo-wrapper-item-img">
+                </a>
+              </li>
 
+              <li class="footer__logo-wrapper-item">
+                <a href="#" class="footer__logo-wrapper-item-link">
+                  <img src="./images/twitter-icon.svg" alt="facebook icon" class="footer__logo-wrapper-item-img">
+                </a>
+              </li>
+
+              <li class="footer__logo-wrapper-item">
+                <a href="#" class="footer__logo-wrapper-item-link">
+                  <img src="./images/icon-3.svg" alt="facebook icon" class="footer__logo-wrapper-item-img">
+                </a>
+              </li>
+
+              <li class="footer__logo-wrapper-item">
+                <a href="#" class="footer__logo-wrapper-item-link">
+                  <img src="./images/instagram-icon.svg" alt="facebook icon" class="footer__logo-wrapper-item-img">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer__info-list">
+            <li class="footer__info-item">
+              <ul class="footer__item-inner-list">
+                <li class="footer__item-inner-item">
+                  <h3 class="footer__item-inner-item-title">Categories</h3>
+                </li>
+
+                <li class="footer__item-inner-item">
+                  <a href="#" class="footer__item-inner-item-link">Case Studies</a>
+                </li>
+
+                <li class="footer__item-inner-item">
+                  <a href="#" class="footer__item-inner-item-link">Mobile Technology</a>
+                </li>
+
+                <li class="footer__item-inner-item">
+                  <a href="#" class="footer__item-inner-item-link">Data Insights</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="footer__info-item">
+              <ul class="footer__item-inner-list">
+                <li class="footer__item-inner-item">
+                  <h3 class="footer__item-inner-item-title">Template</h3>
+                </li>
+
+                <li class="footer__item-inner-item">
+                  <a href="#" class="footer__item-inner-item-link">Style Guide</a>
+                </li>
+
+                <li class="footer__item-inner-item">
+                  <a href="#" class="footer__item-inner-item-link">License</a>
+                </li>
+
+                <li class="footer__item-inner-item">
+                  <a href="#" class="footer__item-inner-item-link">Change Log</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="footer__buttons">
+            <h3 class="footer__buttons-title">Quality tech news in your inbox. Every week.</h3>
+            <a href="#" class="footer__buttons-link">Email address</a>
+            <button class="button footer-button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright-info">
+      <div class="container">
+        <ul class="footer__copyright-info-list">
+          <li class="footer__copyright-info-item">© 2020 TechCues Blog Template</li>
+
+          <li class="footer__copyright-info-item">Created with ❤️ by Chad Morgan</li>
+
+          <li class="footer__copyright-info-item">Powered by Webflow</li>
+        </ul>
+      </div>
     </div>
   </footer>
   <!-- FOOTER END -->
+
+  <div class="icon">
+    <a href="#body" class="icon-link">
+      <img src="./images/arrow-bottom-icon.svg" alt="arrow icon" class="icon-img">
+    </a>
+  </div>
 </body>
 </html>

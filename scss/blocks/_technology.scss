@@ -1,0 +1,218 @@
+.technology{
+  margin-bottom: 248px;
+
+  &__container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__first-box{
+    max-width: 355px;
+    width: 100%;
+  }
+
+  &__first-top{
+    border-bottom: 1px solid $grey;
+    display: flex;
+    padding-bottom: 18px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+  }
+
+  &__first-top-title{
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: $black;
+  }
+
+  &__first-top-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: $black;
+  }
+
+  &__first-top-link{
+    position: relative;
+    font-size: 14px;
+    line-height: 29px;
+    color: $black;
+    text-transform: capitalize;
+    padding-right: 27px;
+  }
+
+  &__first-top-link::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    transform: translateY(50%);
+    display: inline-block;
+    width: 19px;
+    height: 14px;
+    background-image: url("./../../images/arrow-right-icon.svg");
+  }
+
+  &__first-item{
+    margin-bottom: 32px;
+  }
+
+  &__first-item-title{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: $grey;
+    margin-bottom: 7px;
+  }
+
+  &__first-item-text{
+    font-size: 20px;
+    line-height: 30px;
+    color: $black;
+  }
+
+  &__second-box{
+    max-width: 360px;
+    width: 100%;
+    background-color: $dark-black;
+    border-radius: 8px;
+    padding: 48px;
+
+  }
+
+  &__second-title{
+    position: relative;
+    padding-top: 105px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: $blue;
+    margin-bottom: 27px;
+  }
+
+  &__second-title::before{
+    position: absolute;
+    top: 0;
+    transform: translateX(center);
+    content: "";
+    display: inline-block;
+    width: 64px;
+    height: 65px;
+    background-image: url("./../../images/rocket-icon.svg");
+
+  }
+
+  &__second-text{
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    color: $white;
+    margin-bottom: 37px;
+  }
+
+  &__second-link{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: $blue;
+    background: $dark-grey;
+    border: 1px solid $dark-blue;
+    border-radius: 4px;
+    padding: 13px 0px;
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  &__third-box{
+    max-width: 369px;
+    width: 100%;
+
+  }
+
+  &__third-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $grey;
+    padding-bottom: 18px;
+    margin-bottom: 32px;
+  }
+
+  &__third-top-title{
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: $black;
+  }
+
+  &__third-top-title::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: $black;
+  }
+
+  &__third-top-link{
+    position: relative;
+    font-size: 14px;
+    line-height: 29px;
+    color: $black;
+    text-transform: capitalize;
+    padding-right: 27px;
+  }
+
+  &__third-top-link::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    transform: translateY(50%);
+    display: inline-block;
+    width: 19px;
+    height: 14px;
+    background-image: url("./../../images/arrow-right-icon.svg");
+  }
+
+  &__third-item{
+    margin-bottom: 32px;
+  }
+
+  &__third-item-title{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: $grey;
+    margin-bottom: 7px;
+  }
+
+  &__third-item-text{
+    font-size: 20px;
+    line-height: 30px;
+    color: $black;
+  }
+
+}
+
+
+.button-subscribe{
+  font-size: 20px;
+  line-height: 30px;
+  padding: 13px 70px;
+}

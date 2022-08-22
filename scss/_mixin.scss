@@ -11,3 +11,11 @@
   padding: 7px 16px 8px;
   cursor: pointer;
 }
+
+@mixin hoverBtn {
+  box-shadow: 0 0 10px 0px $blue;
+}
+
+@mixin activeBtn {
+  transform: scale(.96);
+}

@@ -1,4 +1,5 @@
 .hero{
+  margin-top: 250px;
   margin-bottom: 184px;
 
   &__container{
@@ -6,10 +7,9 @@
     display: flex;
     align-items: center;
     border: 1px solid $light-grey;
-    // box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+    box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
     border-radius: 8px;
     background-color: $white;
-    z-index: 12;
   }
 
   &__container::before{
@@ -21,7 +21,6 @@
     width: 404px;
     height: 392px;
     background-image: url("./../../images/hero-section-bg-img.png");
-    z-index: -1;
   }
 
   &__container::after{
@@ -41,6 +40,7 @@
     position: relative;
     padding: 65px 0 185px 45px;
     background-color: $white;
+    z-index: 1;
   }
 
   &__container-wrapper::before{
@@ -51,7 +51,6 @@
     width: 4px;
     height: 432px;
     background-color: $blue;
-
   }
 
   &__wrapper-desc-link{
