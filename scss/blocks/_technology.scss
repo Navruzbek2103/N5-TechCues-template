@@ -48,6 +48,14 @@
     color: $black;
     text-transform: capitalize;
     padding-right: 27px;
+
+    &:hover{
+      text-shadow: 0 0 3px $blue;
+    }
+
+    &:active{
+      transform: scale(.95);
+    }
   }
 
   &__first-top-link::after{
@@ -97,8 +105,15 @@
     text-align: center;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    color: $blue;
     margin-bottom: 27px;
+    transition: all .2s ease;
+    &:hover{
+      text-shadow: 1px 1px 1px $cyan;
+    }
+
+    &:active{
+      transform: scale(.95);
+    }
   }
 
   &__second-title::before{
@@ -110,7 +125,10 @@
     width: 64px;
     height: 65px;
     background-image: url("./../../images/rocket-icon.svg");
+  }
 
+  &__second-title-link{
+    color: $blue;
   }
 
   &__second-text{
@@ -132,6 +150,16 @@
     padding: 13px 0px;
     display: block;
     margin-bottom: 16px;
+    transition: all .3s ease;
+
+    &:hover{
+      background-color: $cyan;
+      box-shadow: 0 0 10px 0 $cyan;
+    }
+
+    &:active{
+      transform: scale(.96);
+    }
   }
 
   &__third-box{
@@ -177,6 +205,14 @@
     color: $black;
     text-transform: capitalize;
     padding-right: 27px;
+
+    &:hover{
+      text-shadow: 0 0 3px $blue;
+    }
+
+    &:active{
+      transform: scale(.95);
+    }
   }
 
   &__third-top-link::after{

@@ -38,6 +38,14 @@
     color: $black;
     padding-right: 27px;
     text-transform: capitalize;
+
+    &:hover{
+      text-shadow: 0 0 3px $blue;
+    }
+
+    &:active{
+      transform: scale(.95);
+    }
   }
 
   &__container-top-link::after{

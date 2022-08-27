@@ -39,11 +39,12 @@
     width: 100%;
     height: 50px;
     transition: all 0.5s ease;
+
+    &:active{
+      transform: scale(.95);
+    }
   }
 
-  &__wrapper-left-img:active{
-    transform: scale(.95);
-  }
 
   &__nav-list{
     display: flex;
@@ -87,15 +88,16 @@
     font-size: 16px;
     text-align: center;
     font-family: "Monotype Corsiva";
+
+    &:hover{
+      font-weight: 600;
+    }
+
+    &:active{
+      transform: scale(.9);
+    }
   }
 
-  &__item-item:hover{
-    font-weight: 600;
-  }
-
-  &__item-item:active{
-    transform: scale(.9);
-  }
 
   &__item-link{
     font-size: 14px;
@@ -125,11 +127,12 @@
     height: 32px;
     cursor: pointer;
     transition: all 1.5s ease;
+
+    &:hover{
+      transform: rotate(720deg);
+    }
   }
 
-  &__right-img:hover{
-    transform: rotate(720deg);
-  }
 }
 
 .button{
@@ -142,4 +145,16 @@
 
 .button:active{
   @include activeBtn;
+}
+
+@media only screen and (max-width: 1300px){
+  .header{
+    background-color: cyan;
+    // background: $white;
+
+    .container-big{
+      max-width: 1260px;
+    }
+  }
+
 }

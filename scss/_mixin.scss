@@ -10,6 +10,7 @@
   border: none;
   padding: 7px 16px 8px;
   cursor: pointer;
+  transition: all .3s ease;
 }
 
 @mixin hoverBtn {
