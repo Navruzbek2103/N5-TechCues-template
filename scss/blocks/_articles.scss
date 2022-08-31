@@ -128,3 +128,75 @@
     color: $black;
   }
 }
+
+@media only screen and (max-width: 1200px){
+
+  .articles{
+    margin-bottom: 128px;
+    background-color: bisque;
+
+    .container{
+      max-width: 1100px;
+      width: 100%;
+    }
+
+    &__container{
+      padding: 10px 0;
+    }
+
+    &__container-title{
+      margin-bottom: 2px;
+    }
+
+    &__list{
+      gap: 25px;
+    }
+
+    &__item-img{
+      margin-bottom: 25px;
+      height: 180px;
+    }
+
+    &__item-content{
+      margin-bottom: 30px;
+      margin-left: 20px;
+    }
+
+    &__item-link{
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .articles{
+    margin-bottom: 128px;
+    background-color: pink;
+
+    &__container{
+      padding: 10px 0;
+    }
+
+    &__container-title{
+      margin-bottom: 2px;
+    }
+
+    &__list{
+      gap: 25px;
+    }
+
+    &__item-img{
+      margin-bottom: 25px;
+      height: 180px;
+    }
+
+    &__item-content{
+      margin-bottom: 30px;
+      margin-left: 20px;
+    }
+
+    &__item-link{
+      margin-bottom: 20px;
+    }
+  }
+}
